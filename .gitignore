@@ -1,0 +1,38 @@
+# Directorios y archivos compilados de Go
+/bin/
+/pkg/
+/build/
+/out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Archivos de dependencias y módulos de Go
+/vendor/
+/go.sum
+/go.mod
+
+# Archivos temporales y de caché
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Configuración del entorno
+.env
+*.env.local
+.DS_Store
+
+# Archivos de depuración
+*.prof
+*.dump
+
+# Base de datos SQLite
+bia_consumption.db
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.iml

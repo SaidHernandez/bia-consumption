@@ -99,7 +99,7 @@ func populateConsumptionDBFromCSV(db *gorm.DB, fileName string) error {
 func initDB() error {
 	var command string
 
-	if len(os.Args) > 1 {
+	if len(os.Args) >= 2 {
 		command = os.Args[1]
 	}
 
